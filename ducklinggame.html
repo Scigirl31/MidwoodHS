@@ -2,7 +2,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="cover.css">
+  <link rel="stylesheet" href="ducklinggame.css">
   
   <title>Duckling game</title>
   
@@ -10,9 +10,18 @@
   
 <body>
   
-  <div class="vertical-menu">
-  <a href="ducklinggame.html" class="active">Home</a>
-  <a href="chat.html">Chat</a>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="vertical-menu">
+      <a href="ducklinggame.html" class="active">Home</a>
+      <a href="chat.html">Chat</a>
+    </div>
+  </div>
+  
+  <div id="main">
+    <h2>Sidenav Push Example</h2>
+      <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
   </div>
 
   <h1>Lets Start!</h1>
